@@ -1,0 +1,30 @@
+{
+  "_comment": "麦当劳常见餐品兜底数据（开发/演示用）。真实数据以 query-meals 返回为准。价格以官网常规价为基准，实际以门店为准。",
+  "meals": [
+    { "code": "BIGMAC",        "name": "巨无霸",                 "category": "汉堡",   "price": 25.0, "kcal": 550, "tags": ["招牌","牛肉"] },
+    { "code": "MCCHICKEN",     "name": "麦香鸡",                 "category": "汉堡",   "price": 14.0, "kcal": 380, "tags": ["鸡肉","经典"] },
+    { "code": "MCWINGS_4",     "name": "麦乐鸡 4 块",            "category": "小食",   "price": 11.0, "kcal": 200, "tags": ["鸡肉","分享"] },
+    { "code": "MCWINGS_10",    "name": "麦乐鸡 10 块",           "category": "小食",   "price": 25.0, "kcal": 500, "tags": ["鸡肉","分享"] },
+    { "code": "FRIES_M",       "name": "中薯条",                 "category": "小食",   "price": 10.0, "kcal": 320, "tags": ["经典"] },
+    { "code": "FRIES_L",       "name": "大薯条",                 "category": "小食",   "price": 13.0, "kcal": 430, "tags": ["经典"] },
+    { "code": "COKE_M",        "name": "中杯可乐",               "category": "饮品",   "price": 8.0,  "kcal": 140, "tags": ["经典"] },
+    { "code": "COKE_ZERO",     "name": "无糖可乐",               "category": "饮品",   "price": 8.0,  "kcal": 0,   "tags": ["无糖","减脂"] },
+    { "code": "SPICY_WINGS",   "name": "麦辣鸡翅 2 块",          "category": "小食",   "price": 12.0, "kcal": 240, "tags": ["辣","鸡肉"] },
+    { "code": "MCFLURRY",      "name": "麦旋风",                 "category": "甜品",   "price": 11.0, "kcal": 350, "tags": ["甜品","冰品"] },
+    { "code": "APPLEPIE",      "name": "苹果派",                 "category": "甜品",   "price": 7.0,  "kcal": 230, "tags": ["甜品"] },
+    { "code": "EGG_MCMUFFIN",  "name": "烟肉蛋麦满分",           "category": "早餐",   "price": 12.0, "kcal": 310, "tags": ["早餐"] },
+    { "code": "SAUSAGE_MUF",   "name": "猪柳麦满分",             "category": "早餐",   "price": 13.0, "kcal": 360, "tags": ["早餐"] },
+    { "code": "HASH_BROWN",    "name": "薯饼",                   "category": "早餐",   "price": 6.0,  "kcal": 150, "tags": ["早餐"] },
+    { "code": "MCWRAP",        "name": "麦麦卷",                 "category": "汉堡",   "price": 16.0, "kcal": 420, "tags": ["鸡肉"] },
+    { "code": "DOUBLE_FISH",   "name": "双层鳕鱼堡",             "category": "汉堡",   "price": 19.0, "kcal": 460, "tags": ["鱼"] },
+    { "code": "SALAD",         "name": "田园沙拉",               "category": "小食",   "price": 14.0, "kcal": 120, "tags": ["减脂","素"] },
+    { "code": "CORN_CUP",      "name": "玉米杯",                 "category": "小食",   "price": 8.0,  "kcal": 90,  "tags": ["减脂","素"] },
+    { "code": "ORANGE_JUICE",  "name": "鲜橙汁",                 "category": "饮品",   "price": 10.0, "kcal": 110, "tags": ["果汁"] },
+    { "code": "MILK_TEA",      "name": "珍珠奶茶",               "category": "饮品",   "price": 12.0, "kcal": 260, "tags": ["奶茶"] }
+  ],
+  "combos": [
+    { "code": "BIGMAC_COMBO",  "name": "巨无霸四件套",   "items": ["BIGMAC","FRIES_M","COKE_M","MCWINGS_4"], "price": 39.0, "kcal": 1210 },
+    { "code": "MCCHICKEN_SET", "name": "麦香鸡套餐",     "items": ["MCCHICKEN","FRIES_M","COKE_M"],          "price": 25.0, "kcal": 840  },
+    { "code": "BREAKFAST_SET", "name": "早餐两件套",     "items": ["EGG_MCMUFFIN","HASH_BROWN"],             "price": 15.0, "kcal": 460  }
+  ]
+}

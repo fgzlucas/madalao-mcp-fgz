@@ -1,0 +1,30 @@
+{
+  "name": "madalao-mcp-fgz",
+  "version": "0.1.0",
+  "description": "麦大佬 - 基于麦当劳官方 MCP 的中文点餐助手。听懂'30块吃饱'，自动算最优搭配。",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo:combo": "node examples/demo-combo.js",
+    "demo:coupon": "node examples/demo-coupon.js",
+    "demo:http": "node examples/demo-http.js",
+    "test": "node tests/run.js"
+  },
+  "keywords": [
+    "mcdonalds",
+    "mcp",
+    "tool-protocol",
+    "agent",
+    "skill",
+    "workbuddy",
+    "1024"
+  ],
+  "author": "fgzlucas",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
