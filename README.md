@@ -22,6 +22,19 @@
 </p>
 ---
 
+## 📸 真实运行截图（全部走真实 MCP 接口）
+
+<p align="center">
+  <img src="docs/screenshots/cli-combo.png" width="48%" alt="智能凑单">
+  <img src="docs/screenshots/cli-coupon.png" width="48%" alt="优惠券最优解">
+</p>
+<p align="center">
+  <img src="docs/screenshots/http-api.png" width="48%" alt="HTTP API">
+  <img src="docs/screenshots/mcp-tools.png" width="48%" alt="35 个 MCP 工具">
+</p>
+
+---
+
 ## 🤔 这是什么
 
 `madalao-mcp-fgz` 是一个**中文点餐助手**。你把日常口语直接说给它：
