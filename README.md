@@ -1,4 +1,4 @@
-# 🍔 麦大佬 madalao-mcp-fgz
+# 🍔 马大佬 madalao-mcp-fgz
 
 > **一句话卖点**：听懂"30 块钱两个人吃个饱"，自动调**麦当劳官方 MCP** 算菜单、配优惠券、核价，给你 3 套点单方案。
 
@@ -8,7 +8,18 @@
 [![1024](https://img.shields.io/badge/1024-Programmers'%20Day-orange)](https://github.com/M-China/mcd-developer-innovation-challenge)
 
 参赛项目 · **麦当劳 2026 程序员创意开发大赛** · FROM GIT TO BITE
+---
 
+## 📸 真实运行截图（全部走真实 MCP 接口）
+
+<p align="center">
+  <img src="docs/screenshots/cli-combo.png" width="48%" alt="智能凑单">
+  <img src="docs/screenshots/cli-coupon.png" width="48%" alt="优惠券最优解">
+</p>
+<p align="center">
+  <img src="docs/screenshots/http-api.png" width="48%" alt="HTTP API">
+  <img src="docs/screenshots/mcp-tools.png" width="48%" alt="35 个 MCP 工具">
+</p>
 ---
 
 ## 🤔 这是什么
